@@ -16,3 +16,4 @@ var maleAkanNames = [
 	"Kofi, <img src='https://bit.ly/2JsXMH1' height='200px'>",
 	"Kwame, <img src='https://bit.ly/2BRxDNG' height='200px'>"
 ];
+var daysWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
