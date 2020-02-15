@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card m-4">
-                        <div class="cardx">
+                        <div class="crd">
                             <p>y<span>ea</span>r</p>
                         </div>
                         <div class="card-body">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card m-4">
-                        <div class="cardx">
+                        <div class="crd">
                             <p>m<span>ont</span>h</p>
                         </div>
                         <div class="card-body">
@@ -58,7 +58,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card m-4">
-                        <div class="cardx">
+                        <div class="crd">
                             <p>d<span>a</span>y</p>
                         </div>
                         <div class="card-body">
@@ -72,8 +72,59 @@
             </div>
         </div>
 
+        <div class="displayme container" id="allertme">
+            <div class="alert-success alert myalert container" id="alert1">
+                <p>
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                </p>
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="alert-danger alert myalert container" id="alert2">
+                <p>
+                    <span id="span3"></span>
+                </p>
+            </div>
+        </div>
         
+        <div class="container jumbotron myform">
+            <h3 class="form-head">
+                Fill The Form Below To Get And Submit To Get Your Akan Name
+            </h3>
+            <form class="form-group" onsubmit="event.preventDefault()">
+                <div class="form-group">
+                    <label for="year">Enter The year you were born:</label>
+                    <input id="year" type="text" class="form-control" max="2019" min="1500" max-length="4" size="4"
+                        required />
+                </div>
+                <div class="form-group">
+                    <label for="month">Enter the month you were born:</label>
+                    <input id="month" type="text'" class="form-control" min="1" max="12" max-length="2" required />
+                </div>
+                <div class="form-group">
+                    <label for="day">Enter the day you were born:</label>
+                    <input id="day" type="text" class="form-control" min="1" max="31" max-length="2" required />
+                    <div class="myradio">
+                        <label for="radio" class="radio-inline">
+                            <input type="radio" value="female" name="gender" id="male" required />
+                            Male </label><br />
+                        <label for="radio" class="radio-inline">
+                            <input type="radio" value="female" name="gender" id="female" required />
+                            Female
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" id="submit" class="btn btn-primary" onclick="getAkanName()" value="submit">
+                    Submit
+                </button>
+                <button type="reset" class="btn btn-danger mybtn" value="reset" onclick="refreshPage()">
+                    Reset
+                </button>
+            </form>
+        </div>
+
 
     </main>
 
