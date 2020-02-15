@@ -26,6 +26,9 @@
 .crd > p > span {
 	color: blue;
 }
+.mycard {
+    height: 50vh;
+}
 
 .myform {
     background-color: rgb(245, 245, 245);
@@ -42,5 +45,5 @@
 	
 }
 .mybtn {
-    margin-left: 50vh;
+	margin-left: 50vh;
 }
