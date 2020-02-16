@@ -11,6 +11,7 @@
 ## Setup and Installation 
 
 - Open terminal (CTRL ALT T) git clone https://github.com/BLAIRCARSON/Akannamingsystem cd portfolio easy-to-understand use atom . or code . to open the clone repo on Atom or VS-code respectively
+- This project is deployed in GitHub. You can find the live link at:
 
 ## Technologies used
 
