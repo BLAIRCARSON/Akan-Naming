@@ -47,3 +47,19 @@
 .mybtn {
 	margin-left: 50vh;
 }
+
+.conts{
+	width: auto;
+	height: 450px;
+	font-size: 20px;
+}
+
+.card-footer{
+	font-size: 14px;
+}
+
+.willget{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+}
