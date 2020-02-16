@@ -17,3 +17,48 @@ var maleAkanNames = [
 	"Kwame, <img src='https://bit.ly/2BRxDNG' height='200px'>"
 ];
 var daysWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+
+
+function getAkanName() {
+	
+	
+	 
+	
+	
+		var year = parseInt(document.getElementById("year").value);
+	
+	var month = parseInt(document.getElementById("month").value);
+	var day = parseInt(document.getElementById("day").value);
+	var male = document.getElementById("male");
+	var female = document.getElementById("female");
+
+	
+	if (day <= 0 || day >31) {
+		alert(
+			"Enter a valid Date!!!"
+		);
+	}
+	else if(month<0||month>12 ||month ==2 && day>29){
+		alert(
+			"Enter a valid Month!!!"
+		);
+	}
+	
+	var day = new Date(year + "/" + month + "/" + day);
+	
+	var dateOfBirth = day.getDay();
+	if (male.checked == true) {
+		document.getElementById("alert1").style.display = "block";
+		document.getElementById("span1").innerHTML =
+			"Awesome! You were born on, " + daysWeek[dateOfBirth];
+		document.getElementById("span2").innerHTML =
+			"Your Akan Name is " + maleAkanNames[dateOfBirth];
+	} else if (female.checked == true) {
+		document.getElementById("alert1").style.display = "block";
+		document.getElementById("span1").innerHTML = 
+		    "Awesome!You were born on,"+ daysWeek[dateOfBirth];
+		document.getElementById("span2").innerHTML = 
+		    "Your Akan Name is "+ femaleAkanNames[dateOfBirth];
+	}
+}
