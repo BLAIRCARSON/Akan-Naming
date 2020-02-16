@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js"></script>
     <title>Akan Naming system</title>
 </head>
 
@@ -38,7 +39,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Enter Year Of Birth</h4>
                             <p class="card-text">
-                                Enter The year you were born so as to generate your akan
+                                Enter The year you were born so as to generate your Akan Name
                             </p>
                         </div>
                     </div>
@@ -51,7 +52,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Enter Month Of Birth</h4>
                             <p class="card-text">
-                                Enter The month you were born so as to generate your akan
+                                Enter The month you were born to generate your Akan Name
                             </p>
                         </div>
                     </div>
@@ -64,12 +65,15 @@
                         <div class="card-body">
                             <h4 class="card-title">Enter Year Of Birth</h4>
                             <p class="card-text">
-                                Enter The year you were born so as to generate your akan
+                                Enter The year you were born so as to generate your Akan Name
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="willget">
+            <p>After You Click Submit You Akan Name Will Display on <br> The Screen With A Corresponding Bracelet.CHEERS!</p>
         </div>
 
         <div class="displayme container" id="allertme">
@@ -80,7 +84,7 @@
                 </p>
             </div>
         </div>
-        
+
         <div class="container">
             <div class="alert-danger alert myalert container" id="alert2">
                 <p>
@@ -89,23 +93,23 @@
             </div>
         </div>
 
-        <div class="container jumbotron myform">
+        <div class="container jumbotron myform conts">
             <h3 class="form-head">
-                Fill The Form Below To Get And Submit To Get Your Akan Name
+                Fill The Form Below And Submit To Get Your Akan Name
             </h3>
             <form class="form-group" onsubmit="event.preventDefault()">
                 <div class="form-group">
                     <label for="year">Enter The year you were born:</label>
-                    <input id="year" type="text" class="form-control" max="2019" min="1500" max-length="4" size="4"
-                        required />
+                    <input id="year" date="year" class="form-control" min="1500" max="2020" maxlength="4" size="4"
+                        value="" required />
                 </div>
                 <div class="form-group">
                     <label for="month">Enter the month you were born:</label>
-                    <input id="month" type="text'" class="form-control" min="1" max="12" max-length="2" required />
+                    <input id="month" type="text'" class="form-control" min="1" max="12" maxlength="2" required />
                 </div>
                 <div class="form-group">
                     <label for="day">Enter the day you were born:</label>
-                    <input id="day" type="text" class="form-control" min="1" max="31" max-length="2" required />
+                    <input id="day" type="text" class="form-control" min="1" max="31" maxlength="2" required />
                     <div class="myradio">
                         <label for="radio" class="radio-inline">
                             <input type="radio" value="female" name="gender" id="male" required />
@@ -126,8 +130,11 @@
         </div>
 
 
-    </main>    
+    </main>
+    <div class="card-footer text-center">
+        <p>© 2020 Copyright:Kirui Cheruiyot Vincent</p>
+    </div>
 
 </body>
-<script src="script.js"></script>
+
 </html>
