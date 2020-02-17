@@ -1,0 +1,66 @@
+.container-fluid{
+    font-size: 20px ;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+.how {
+	font-size: 45px;
+	padding-top: 18px;
+	font-weight: bold;
+	color: blue;
+}
+
+.crd {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 3vh;
+}
+.crd > p {
+	font-family: "Rye", cursive;
+	font-size: 30px;
+	color: green;
+}
+.crd > p > span {
+	color: blue;
+}
+.mycard {
+    height: 50vh;
+}
+
+.myform {
+    background-color: rgb(245, 245, 245);
+}
+
+.myradio {
+	padding-top: 10px;
+}
+.myalert {
+	text-align: center;
+}
+.form-head {
+	text-align: center;
+	
+}
+.mybtn {
+	margin-left: 50vh;
+}
+
+.conts{
+	width: auto;
+	height: 450px;
+	font-size: 20px;
+}
+
+.card-footer{
+	font-size: 14px;
+	
+}
+
+.willget{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+}

@@ -18,16 +18,8 @@ var maleAkanNames = [
 ];
 var daysWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-
-
 function getAkanName() {
-	
-	
-	 
-	
-	
-		var year = parseInt(document.getElementById("year").value);
-	
+	var year = parseInt(document.getElementById("year").value);
 	var month = parseInt(document.getElementById("month").value);
 	var day = parseInt(document.getElementById("day").value);
 	var male = document.getElementById("male");
@@ -44,7 +36,8 @@ function getAkanName() {
 			"Enter a valid Month!!!"
 		);
 	}
-	
+
+
 	var day = new Date(year + "/" + month + "/" + day);
 	
 	var dateOfBirth = day.getDay();
